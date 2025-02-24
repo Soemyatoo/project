@@ -1,0 +1,152 @@
+/*Header*/
+body{
+  margin: 0;
+  font-family: "Poppins", serif;
+  padding: 0;
+  background-color: #ECEDEF;
+  user-select: none;
+}
+
+
+/*Header*/
+.navbar-container{
+  display: flex;
+  align-items: center;
+  background-color: #FFFFFF;
+  justify-content: space-around;
+ }
+ .navbar-ContainerMother{
+  position: fixed;
+  top: 0;
+  left: 0;
+  
+  right: 0;
+  z-index: 100;
+ }
+ .nextNavBar-Container{
+  display: flex;
+  
+  padding: 12px;
+  background-color: #444444;
+  justify-content: space-around;
+  
+ }
+ .flimFlex-img{
+   width: 4.5rem;
+ }
+ .register-img{
+  border-radius: 38px;
+  width: 2.5rem;
+ }
+.login-user{
+  border-radius: 38px;
+  width: 3.7rem;
+}
+.aTag{
+  text-decoration: none;
+  color: inherit;
+  font-weight: 600;
+  font-size: 11px;
+}
+.home-icon{
+  width: 2.1rem;
+  margin-left: 5rem;
+  vertical-align: middle;
+}
+.login-span{
+  margin-left: -10px;
+}
+.register-span{
+  margin-left: 2px;
+}
+.second-Tag{
+    margin-left: 10px;
+}
+.link{
+  text-decoration: none;
+  color: white;
+  margin: 0px 20px;
+}
+.pTag{
+  width: 26rem;
+  margin: 8px 0px;
+    font-size: 10px;
+}
+
+  /* body */
+  .second-cointer{
+    background-color: white;
+    margin-top: 12rem;
+    overflow: hidden;
+    width: 400px;
+    height: 500px;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 1px 5px 24px -6px rgba(0.15, 0.15, 0.15);
+  }
+
+  .text{
+    margin-top: 100px;
+    margin-left: 73px;
+    
+    padding: 20px;
+  }
+  .text2{
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .btn2 {
+    display: block;
+    width: 50%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+    margin-left: 22%;
+  }
+
+  .box-cointer{
+    margin-bottom: 20px;
+    border-radius: 30px;
+  }
+  .email{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 9px 15px;
+    border: none;
+    background-color:#f9f4f4 ;
+    box-shadow: 1px 1px 5px -1px rgba(0.15, 0.15, 0.15);
+    outline: none;
+  }
+
+  .password{
+          margin-bottom: 20px;
+        
+          border-radius: 10px;
+          padding:  9px 15px;
+          border: none;
+          background-color:#f9f4f4 ;
+          outline: none;
+          box-shadow: 1px 1px 5px -1px rgba(0.15, 0.15, 0.15);
+          
+  
+         
+  }
+  .name{
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 9px 15px;
+    outline: none;
+    border: none;
+    background-color:#f9f4f4 ;
+    box-shadow: 1px 1px 5px -1px rgba(0.15, 0.15, 0.15);
+  }
+ 

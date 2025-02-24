@@ -1,0 +1,177 @@
+body{
+  margin: 0;
+  font-family: "Poppins", serif;
+  padding: 0;
+  user-select: none;
+}
+/*Header*/
+.navbar-container{
+  display: flex;
+  align-items: center;
+  background-color: #FFFFFF;
+  justify-content: space-around;
+ }
+ .navbar-ContainerMother{
+  position: fixed;
+  top: 0;
+  left: 0;
+  
+  right: 0;
+  z-index: 100;
+ }
+ .nextNavBar-Container{
+  display: flex;
+  
+  padding: 12px;
+  background-color: #444444;
+  justify-content: space-around;
+  
+ }
+ .flimFlex-img{
+   width: 4.5rem;
+ }
+ .register-img{
+  border-radius: 38px;
+  width: 2.5rem;
+ }
+.login-user{
+  border-radius: 38px;
+  width: 3.7rem;
+}
+.aTag{
+  text-decoration: none;
+  color: inherit;
+  font-weight: 600;
+  font-size: 11px;
+}
+.home-icon{
+  width: 2.1rem;
+  margin-left: 5rem;
+  vertical-align: middle;
+}
+.login-span{
+  margin-left: -10px;
+}
+.register-span{
+  margin-left: 2px;
+}
+.second-Tag{
+    margin-left: 10px;
+}
+.link{
+  text-decoration: none;
+  color: white;
+  margin: 0px 20px;
+}
+.pTag{
+  width: 26rem;
+  margin: 8px 0px;
+    font-size: 10px;
+}
+
+/*bodyMain*/
+
+.mother-container{
+   margin-top: 12rem;
+}
+.Container{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  justify-content: space-between;
+}
+.left{
+  margin-left: 5rem;
+}
+.right{
+  background-color: #ffffff;
+  display: flex;
+  padding: 20px;
+  margin-right: 3rem;
+  box-shadow:1px 1px 8px 3px rgba(0.15,0.15,0.15,0.15);
+}
+.firstnameTextContainer{
+  display: flex;
+}
+.firstLastContainer{
+  display: flex;
+  justify-content: space-between;
+}
+.lastContainer{
+  margin-right: 7.7rem;
+}
+.inputTag{
+  border-radius: 3px;
+  padding: 8px;
+  border: 1px solid #DBD6EF;
+  margin: 6px 0px;
+  background-color: #EEEEEE;
+}
+.emailTag{
+  width: 25rem;
+}
+
+.contact{
+  font-size: 4rem;
+  
+}
+.textInfo{
+  width: 35rem;
+  margin-top: 5rem;
+}
+.isOpened{
+  background-color: #007BFF; /* Blue color */
+  color: white;
+}
+*{
+  box-sizing: border-box;
+}
+.modal{
+  background-color: rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: all 0.3s ease-in-out;
+  z-index: -1;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal.open{
+  opacity: 1;
+  z-index: 999;
+}
+h6{
+  text-align: center;
+}
+.modal-inner{
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 6px 3px 4px rgba(0, 0, 0, 0.3);
+  padding: 48px 45px;
+  height: 12rem;
+  width: 31rem;
+}
+.modal-inner h2 {
+  margin: 0;
+}
+.modal-inner p {
+  line-height: 24px;
+  margin: 10px 0;
+}
+.closeModalTag{
+background: #28A745;
+color: white;
+border: none;
+
+border-radius: 6px;  margin-left: 15rem;
+}
+.checkMark{
+  width: 37px;
+  opacity: 0;
+  margin-right: -32px;
+}

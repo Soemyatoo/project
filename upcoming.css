@@ -1,0 +1,161 @@
+body{
+  margin: 0;
+  font-family: "Poppins", serif;
+  padding: 0;
+  background-color: #ECEDEF;
+  background-image: url('Image/no\ way\ home-poster.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  user-select: none;
+}
+.body-ImageContainer{
+  display: flex
+;
+    margin-left: 6.4rem;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 14rem;
+}
+.textForMovieName{
+  color: white;
+  z-index: 2;
+  position: relative;
+    font-weight: 600;
+    width: 342px;
+    font-size: 47px;
+}
+.movieInfo-text{
+  color: #FFFFFF;
+  line-height: 37px;
+  position: relative;
+  z-index: 3;
+}
+.Spider-ManOFInfo{
+   width: 35rem;
+   z-index: 2;
+   position: relative;
+   color: white;
+}
+.rating-05{
+  height: 0.6rem;
+}
+body::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right,rgba(0,0,0,0.3),rgba(0,0,0,0.5),rgba(0,0,0,0) 40%);
+  
+  
+}
+
+
+/*Header*/
+.navbar-container{
+  display: flex;
+  align-items: center;
+  background-color: #FFFFFF;
+  justify-content: space-around;
+ }
+ .navbar-ContainerMother{
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0.85;
+  right: 0;
+  z-index: 100;
+ }
+ .nextNavBar-Container{
+  display: flex;
+  
+  padding: 12px;
+  background-color: #444444;
+  justify-content: space-around;
+  
+ }
+ .flimFlex-img{
+   width: 4.5rem;
+ }
+ .register-img{
+  border-radius: 38px;
+  width: 2.5rem;
+ }
+.login-user{
+  border-radius: 38px;
+  width: 3.7rem;
+}
+.aTag{
+  text-decoration: none;
+  color: inherit;
+  font-weight: 600;
+  font-size: 11px;
+}
+.home-icon{
+  width: 2.1rem;
+  margin-left: 5rem;
+  vertical-align: middle;
+}
+.login-span{
+  margin-left: -10px;
+}
+.register-span{
+  margin-left: 2px;
+}
+.second-Tag{
+    margin-left: 10px;
+}
+.link{
+  text-decoration: none;
+  color: white;
+  margin: 0px 20px;
+}
+.pTag{
+  width: 26rem;
+  margin: 8px 0px;
+    font-size: 10px;
+}
+
+/*Start Movie Card Container*/
+.img-class{
+  width: 2rem;
+}
+.movie-card{
+  display: flex
+  ;
+      margin-bottom: 1.7rem;
+      /* margin: 0px 23px; */
+      justify-content: center;
+      align-items: center;
+     
+      position: absolute;
+      bottom: 0;
+
+}
+
+.chg-bgForThor{
+  margin: 0;
+  font-family: "Poppins", serif;
+  padding: 0;
+  background-color: #ECEDEF;
+  background-image: url('Image/thor-poster.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  user-select: none;
+}
+.chg-bgForBatman{
+  margin: 0;
+  font-family: "Poppins", serif;
+  padding: 0;
+  background-color: #ECEDEF;
+  background-image: url('Image/batman-poster.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  user-select: none;
+}
+.hover-Tag:hover{
+  transform: scale(1.3);
+  transition: 0.3s ease-in-out;
+  box-shadow: 1px 7px 7px 3px rgba(0.15,0.15,0.15,0.15);
+}

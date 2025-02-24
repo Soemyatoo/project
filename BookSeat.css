@@ -1,0 +1,337 @@
+body{
+  margin: 0;
+  font-family: "Poppins", serif;
+  padding: 0;
+  background-color: #ECEDEF;
+  user-select: none;
+}
+
+
+/*Header*/
+.navbar-container{
+  display: flex;
+  align-items: center;
+  background-color: #FFFFFF;
+  justify-content: space-around;
+ }
+ .navbar-ContainerMother{
+  position: fixed;
+  top: 0;
+  left: 0;
+  
+  right: 0;
+  z-index: 100;
+ }
+ .nextNavBar-Container{
+  display: flex;
+  
+  padding: 12px;
+  background-color: #444444;
+  justify-content: space-around;
+  
+ }
+ .flimFlex-img{
+   width: 4.5rem;
+ }
+ .register-img{
+  border-radius: 38px;
+  width: 2.5rem;
+ }
+.login-user{
+  border-radius: 38px;
+  width: 3.7rem;
+}
+.aTag{
+  text-decoration: none;
+  color: inherit;
+  font-weight: 600;
+  font-size: 11px;
+}
+.home-icon{
+  width: 2.1rem;
+  margin-left: 5rem;
+  vertical-align: middle;
+}
+.login-span{
+  margin-left: -10px;
+}
+.register-span{
+  margin-left: 2px;
+}
+.second-Tag{
+    margin-left: 10px;
+}
+.link{
+  text-decoration: none;
+  color: white;
+  margin: 0px 20px;
+}
+.pTag{
+  width: 26rem;
+  margin: 8px 0px;
+    font-size: 10px;
+}
+
+  
+  /*BodyCard*/
+  
+  .movieCard{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  .movieCardImage{
+    width: 35rem;
+    border-radius: 15px;
+    height: 300px;
+  }
+  .checkMark{
+    width: 37px;
+    opacity: 0;
+    margin-right: -32px;
+  }
+  .opened{
+    opacity: 1;
+  }
+  .cnt-btn{
+    display: flex;
+    margin-top: 16px;
+    justify-content: space-between;
+  }
+  .left{
+    background-color: #E9E8E8;
+    padding: 27px;
+    border-radius: 16px;
+    box-shadow: 1px 1px 5px 3px rgba(0.15,0.15,0.15,0.15);
+    margin-left: 8rem;
+    width: 300px;
+  }
+  .btn-info{
+    color: white;
+    font-size: 10px;
+      padding: 1px 4px;
+  }
+  .cinemaTag{
+    font-size: 12px;
+    opacity: 0.8;
+    color: #494949;
+  }
+  .movieName{
+    line-height: 20px;
+    color: #8b8989;
+    font-weight: 400;
+    font-size: 29px;
+  }
+  .btn-info-Container{
+     margin: 6px 0px;
+  }
+  .pickUpDate{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 500;
+    user-select: none;
+  }
+  .button-group{
+    display: flex;
+    justify-content: center;
+  }
+  .date-btn {
+    background-color: #eaeaea;
+    color: black;
+    border: 1px solid #ccc;
+    width: 48px;
+    margin: 14px;
+    user-select: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .date-btn {
+    background-color: #eaeaea;
+    color: black;
+    border: 1px solid #ccc;
+   user-select: none;
+    margin: 15px;
+    cursor: pointer;
+  }
+  .isRemove{
+    display: none;
+  }
+  .date-btn.active {
+    background-color: #007BFF; /* Blue color */
+    color: white;
+  }
+  .showTimeContainer{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 500;
+    user-select: none;
+  }
+  .showTimeBtContainer{
+    display: flex;
+    justify-content: center;
+  }
+  .span2{
+    background-color: gray;
+    color: white;
+    padding: 2px;
+    border-radius: 5px;
+  }
+  .btn-primary{
+    margin: 20px 15px;
+    width: 98px;
+    user-select: none;
+    padding: 6px;
+    background-color: #eaeaea;
+    border: none;
+    color: black;
+    border-radius: 24px;
+  }
+  .seatText{
+    display: flex;
+    justify-content: center;
+    user-select: none;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  .seatChoose{
+    display: flex;
+user-select: none;
+    justify-content: center;
+  
+  }
+  .seatbtn{
+    height: 1.2rem;
+      border-radius: 5px;
+    margin: 0px 52px;
+    margin-bottom: 10px;
+  }
+  .seatPrice{
+    
+    font-size: 12px;
+    justify-content: center;
+  }
+  .ThoursandSeat{
+    display: flex;
+  }
+  .mgBtn{
+    margin-bottom: 4rem;
+  }
+  
+  
+  /*secondDiv*/
+  
+  .colContainer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+  .firstCol{
+  
+  }
+  .secondCol{
+ margin: 0px 25px;
+    
+  }
+  .thirdCol{
+    margin-left: 10px;
+  }
+  
+  .firstColContainer{
+    width: 84px;
+    margin-right: 20px;
+  }
+  .vvip{
+    width: 82px;
+    border-radius: 3px;
+    height: 1.5rem;
+    font-size: 10px;
+    margin-top: 5px;
+  }
+  .vvip.active{
+    background-color: #007BFF; /* Blue color */
+    color: white;
+  }
+  .seatbtnTwo{
+      width: 39px;
+      border-radius: 5px;
+      font-size: 7px;
+      margin-bottom: 5px;
+  }
+  .seatbtnTwo.active{
+    background-color: #007BFF; /* Blue color */
+    color: white;
+  }
+  .secondColContainer{
+    display: flex;
+  }
+  .innerBtn{
+    width: 90px;
+  }
+  .innerBtnTwo{
+    width: 85px;
+    margin: 0px 7px;
+  }
+  .innerBtnThree{
+    width: 85px;
+    margin: 0px 7px;
+  }
+  .innerBtnFour{
+    width: 90px;
+    margin-left: 5px;
+  }
+  .isOpened{
+    background-color: #007BFF; /* Blue color */
+    color: white;
+  }
+  *{
+    box-sizing: border-box;
+  }
+  .modal{
+    background-color: rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: all 0.3s ease-in-out;
+    z-index: -1;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .modal.open{
+    opacity: 1;
+    z-index: 999;
+  }
+  .modal-inner{
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 6px 3px 4px rgba(0, 0, 0, 0.3);
+    padding: 16px 45px;
+    
+    width: 31rem;
+  }
+  .modal-inner h2 {
+    margin: 0;
+  }
+  .modal-inner p {
+    line-height: 24px;
+    margin: 10px 0;
+  }
+ .closeModalTag{
+  background: #28A745;
+  color: white;
+  border: none;
+  border-radius: 6px;  margin-left: 15rem;
+ }
+ .remove{
+  opacity: 0;
+ }
